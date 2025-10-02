@@ -178,3 +178,45 @@ body {
 .break {
     height: 10px;
 }
+
+@media only screen and (max-width: 800px) {
+    .wrapper{
+        display: inline;
+    }
+    .navbar {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .navbar a {
+        /*display: block;*/
+        color: var(--dark-color1);
+        vertical-align: middle;
+        text-decoration: none;
+    }
+    .left-column{
+        position: static;
+    }
+
+    .right-column{
+        padding: 10px 10px;
+    }
+
+    #about {
+        margin-top: 10px;
+    }
+
+    .paper {
+        display: block;
+    }
+    
+    .img-container {
+        margin-top: 1%;
+        width: 75%;
+    }
+
+    .paper-description h2 {
+        font-size: 20px;
+    }
+}
